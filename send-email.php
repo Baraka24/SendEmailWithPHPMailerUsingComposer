@@ -13,7 +13,7 @@ use PHPMailer\PHPMailer\SMTP;
 $mail = new PHPMailer(true);
 
 try {
-        //Server settings
+        //Server settings0
 
         $mail->isSMTP();                                            //Send using SMTP
         $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
